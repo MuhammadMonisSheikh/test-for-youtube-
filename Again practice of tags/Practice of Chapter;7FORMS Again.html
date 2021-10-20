@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+
+<body>
+    <form action="../html/Success.html">
+        <p>This is where the form controls will appear.
+        </p>
+    </form>
+    <form action="../html/Success.html">
+        <p>Username:
+            <input type="text" name="Username" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+    </form>
+    <form action="../html/Success.html">
+        <p>What did you think of the gig?</p>
+        <textarea name="comments" cols="20" rows="4">Enter
+    your comments...</textarea>
+    </form>
+    <form action="../html/Success.html">
+        <p>Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+            <input type="radio" name="genre" value="pop" />
+            Pop
+            <input type="radio" name="genre" value="jazz" />
+            Jazz
+        </p>
+    </form>
+    <form action="../html/Success.html">
+        <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+    </form>
+    <form action="../html/Success.html">
+        <p>What device do you listen to music on?</p>
+        <select name="device">
+            <option value="ipod">iPod</option>
+            <option value="Radio">radio</option>
+            <option value="computer">Computer</option>
+        </select>
+    </form>
+    <form action="../html/Success.html">
+        <p>Do you play any of the following instruments?<br />
+            (You can select more than one option by holding<br />
+            down control on a PC or command key on a Mac<br />
+            while selecting different options) </p>
+        <select name="instruments" size="3px" multiple="multiple">
+            <option value="guitar" selected="selected">
+                Guitar </option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+    </form>
+    <form action="../html/Success.html">
+
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="Upload" />
+    </form>
+    <form action="../html/Success.html">
+        <p>Subscribe to our email </p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe" value="Subscribe" />
+    </form>
+    <h1>Image button</h1>
+    <form action="../html/Success.html">
+        <p>Subscribe to our email list :</p>
+        <input type="text" name="email" />
+        <input type="image"
+            src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwDqasDIIrd74TEzSeRF2DGwoGvSZ7xb1ng&usqp=CAU "
+            width="200px" height="60 px" />
+    </form>
+    <form action="../html/Success.html"><button><img
+                src="data:image/jpeg;base64,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"
+                alt="add" width="100px " height="100px" />Add</button>
+        <input type="hidden" name="bookmark" value="lyrics">
+    </form>
+    <form>
+        label>Age: <input type="text" name="age" /></label>
+        <br />
+        Gender:
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+        <fieldset>
+            <legend>contact details</legend>
+            <lable>Email:<br />
+                <input type="text " name="email" />
+            </lable><br />
+            <lable>Mobile:<br />
+                <input type="text" name="mobile" />
+            </lable><br />
+            <lable>Telephone:<br />
+                <input type="text" name="telephone" />
+            </lable><br />
+        </fieldset>
+    </form>
+    <form action="../html/Success.html">
+        <label for="Username">Username</label>
+        <input type="text" name="Username" required=" required" /></title><br />
+        <label for="password">Password</label>
+        <input type="password" name="password" required="required" />
+        <input type="submit" value="Submit" />
+    </form>
+    <form action="../html/Success.html">
+        <label for="username">Departure date:</label>
+        <input type="date" name="depart" />
+        <input type="submit" value="Submit" />
+    </form>
+    <form action="../html/Success.html">
+        <p>Please enter your email address:</p>
+        <input type="email" name="email" />
+        <input type="submit" value="Submit" />
+    </form>
+    <form action="../html/Success.html">
+        <p>Please enter your website address:</p>
+        <input type="url" name="website" />
+        <input type="submit" value="Submit" />
+    </form>
+ <form action="../html/Success.html">
+<p>Search</p>
+<input type="search"name="search"/>
+<input type="submit"value="search">
+ <form action="../html/Success.html">
+<p>Search</p>
+ <input type="search"name="search"
+ placeholder="Enter keyword">
+  <input type="submit"value="search">
+ </form>
+</form>
+</body>
+
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter;9Flash,Video&Audio</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/
+    swfobject/2.2/swfobject.js"></script>
+    <script type="text/javascript">
+        swfobject.embedSWF("flash/bird.swf",
+            "bird", "400", "300", "8.0.0");</script>
+</head>
+
+<body>
+    <div id="bird">
+        <p>An animation of a bird taking<br />
+            a shower</p>
+    </div>
+    <video src="../assets/videos.mp4" poster="images/puppy.jpg" width="400" height="300" preload controls loop>
+        <p>A video of a puppy playing in the snow</p>
+    </video>
+
+    <body>
+        <div id="music-player">
+            <p>You cannot hear this track because this
+                browser does not support our Flash music
+                player.</p>
+            <audio src="../assets/Audio.ogg" controls autoplay>
+                <p>This browser does not support our audio<br />
+                    format.</p>
+            </audio>
+            <audio controls autoplay>
+                <source src="../assets/Audio.ogg" />
+                <source src="../assets/Audio.ogg" />
+                <p>This browser does not support our audio
+                    format.</p>
+            </audio>
+
+    </body>
+
+</html>
